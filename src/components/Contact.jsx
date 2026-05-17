@@ -111,7 +111,7 @@ export default function Contact() {
         </div>
 
         <div className="social-links reveal" ref={el => revealRefs.current.push(el)}>
-          <a href="#" className="social-link" aria-label={t({ id: 'contact.social.instagram' })}><IconInstagram /></a>
+          <a href="https://www.instagram.com/nishasyed_artristry" target="_blank" rel="noopener noreferrer" className="social-link" aria-label={t({ id: 'contact.social.instagram' })}><IconInstagram /></a>
           <a href="#" className="social-link" aria-label={t({ id: 'contact.social.facebook' })}><IconFacebook /></a>
           <a href="#" className="social-link" aria-label={t({ id: 'contact.social.whatsapp' })}><IconWhatsApp /></a>
         </div>

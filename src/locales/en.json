@@ -49,6 +49,7 @@
   "portfolio.filter.bridal": "Bridal",
   "portfolio.filter.engagement": "Engagement",
   "portfolio.filter.babyshower": "Baby Shower",
+  "portfolio.filter.costumes": "Aari Work",
   "portfolio.item.royalbridal.title": "Royal Bridal",
   "portfolio.item.royalbridal.sub": "Bridal · Traditional",
   "portfolio.item.goldenengagement.title": "Golden Engagement",
@@ -61,6 +62,10 @@
   "portfolio.item.twilightglow.sub": "Engagement · Evening",
   "portfolio.item.classicbride.title": "Classic Bride",
   "portfolio.item.classicbride.sub": "Bridal · Reception",
+  "portfolio.item.aariwork1.title": "Aari Work Blouse",
+  "portfolio.item.aariwork1.sub": "Costumes · Embroidery",
+  "portfolio.item.aariwork2.title": "Designer Aari Blouse",
+  "portfolio.item.aariwork2.sub": "Costumes · Handwork",
 
   "about.label": "About Nisha",
   "about.title": "Beauty is a language <em>I was born to speak.</em>",
@@ -133,7 +138,7 @@
   "contact.form.message.label": "Tell Me About Your Vision",
   "contact.form.message.placeholder": "Describe your event, style inspiration, or any details…",
   "contact.form.submit": "Send Inquiry →",
-  "contact.success.title": "Message received, darling.",
+  "contact.success.title": "Your message has been received.",
   "contact.success.body": "I'll be in touch within 24 hours to discuss your vision. Get excited — something beautiful is coming.",
 
   "footer.logo": "Nisha Syed",
