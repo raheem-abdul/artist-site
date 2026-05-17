@@ -7,7 +7,7 @@ function AboutPhoto() {
   const [exists, setExists] = useState(true)
   return exists ? (
     <img
-      src="/assets/about-photo.jpg"
+      src={`${import.meta.env.BASE_URL}assets/about-photo.jpg`}
       alt={t({ id: 'about.photo.alt' })}
       onError={() => setExists(false)}
       style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}

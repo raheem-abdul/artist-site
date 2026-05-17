@@ -6,7 +6,7 @@ function HeroPhoto() {
   const [exists, setExists] = useState(true)
   return exists ? (
     <img
-      src="/assets/hero-portrait.jpg"
+      src={`${import.meta.env.BASE_URL}assets/hero-portrait.jpg`}
       alt={t({ id: 'hero.photo.alt' })}
       onError={() => setExists(false)}
       style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}

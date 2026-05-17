@@ -51,7 +51,7 @@ export default function Portfolio() {
             >
               <div className="portfolio-swatch">
                 <img
-                  src={item.img}
+                  src={`${import.meta.env.BASE_URL}${item.img}`}
                   alt={t({ id: `portfolio.item.${item.id}.title` })}
                   className="portfolio-img"
                 />
